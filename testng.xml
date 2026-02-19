@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+
+  <test name="HeaderAndLeftPanelTests">
+    <parameters>
+      <parameter name="browser" value="chrome"/>
+      <parameter name="url" value="https://qeaskillhub.cognizant.com/LoginPage"/>
+    </parameters>
+    <classes>
+    
+<!-- 
+     
+      Header Section UI Validation 
+	<class name="com.insurEdge.testScripts.US17_P1_01"/> 
+      
+      Left Panel UI Validation 
+     <class name="com.insurEdge.testScripts.US17_P1_02"/> 
+      
+       Footer Validation 
+    <class name="com.insurEdge.testScripts.US17_P1_03"/> 
+      
+      Profile Section Functional Validation 
+     <class name="com.insurEdge.testScripts.US17_P1_04"/> -->
+      
+       Hamburger functional Validation 
+   	<class name="com.insurEdge.testScripts.US17_P1_05"/> 
+      
+   <!--   Left panel functional Validation 
+      <class name="com.insurEdge.testScripts.US17_P1_06"/> 
+     
+      Footer functional Validation 
+      <class name="com.insurEdge.testScripts.US17_P1_07"/> 
+      
+      ************ Now Authorize page ************
+      
+      
+      
+      <class name="com.insurEdge.testScripts.US17_P1_08"/> 
+      
+      
+        <class name="com.insurEdge.testScripts.US17_P1_09"/> 
+      
+        
+       <class name="com.insurEdge.testScripts.US17_P1_10"/> 
+       
+      
+       <class name="com.insurEdge.testScripts.US17_P1_11"/> 
+       
+       
+       <class name="com.insurEdge.testScripts.US17_P1_12"/>
+        
+       
+       <class name="com.insurEdge.testScripts.US17_P1_13"/>
+       
+       
+       
+       
+       <class name="com.insurEdge.testScripts.US17_P1_14"/> 
+       
+       
+        <class name="com.insurEdge.testScripts.US17_P1_15"/> 
+        
+       <class name="com.insurEdge.testScripts.US17_P1_16"/>  
+       
+       <class name="com.insurEdge.testScripts.US17_P1_17"/> 
+       
+        <class name="com.insurEdge.testScripts.US17_P1_18"/> 
+        
+          <class name="com.insurEdge.testScripts.US17_P1_19"/> 
+        
+      	  <class name="com.insurEdge.testScripts.US17_P1_20"/> -->  
+         
+    </classes>
+  </test>
+</suite>
