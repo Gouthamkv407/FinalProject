@@ -9,11 +9,11 @@
     </parameters>
     <classes>
     
-<!-- 
+ 
      
       Header Section UI Validation 
 	<class name="com.insurEdge.testScripts.US17_P1_01"/> 
-      
+ <!--    
       Left Panel UI Validation 
      <class name="com.insurEdge.testScripts.US17_P1_02"/> 
       
