@@ -26,7 +26,7 @@
        Hamburger functional Validation 
    	<class name="com.insurEdge.testScripts.US17_P1_05"/> 
       
-   <!--   Left panel functional Validation 
+     Left panel functional Validation 
       <class name="com.insurEdge.testScripts.US17_P1_06"/> 
      
       Footer functional Validation 
@@ -69,7 +69,7 @@
         
           <class name="com.insurEdge.testScripts.US17_P1_19"/> 
         
-      	  <class name="com.insurEdge.testScripts.US17_P1_20"/> -->  
+      	  <class name="com.insurEdge.testScripts.US17_P1_20"/>   
          
     </classes>
   </test>
