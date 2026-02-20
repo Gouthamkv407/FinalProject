@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>HeaderAndLeftPanelTests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>61/10/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 19 21:47:58 IST 2026</td>
+<td>Started on:</td><td>Fri Feb 20 11:25:01 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>18 seconds (18434 ms)</td>
+<tr><td>Total time:</td><td>273 seconds (273783 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,576 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.link2Questions()'><b>link2Questions</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td><div><pre>java.lang.AssertionError: Link2 Questions NOT reached - Link returned 404
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidateWith404(US17_P1_06.java:57)
+	at com.insurEdge.testScripts.US17_P1_06.link2Questions(US17_P1_06.java:209)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace615830852", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace615830852'><pre>java.lang.AssertionError: Link2 Questions NOT reached - Link returned 404
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidateWith404(US17_P1_06.java:57)
+	at com.insurEdge.testScripts.US17_P1_06.link2Questions(US17_P1_06.java:209)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_20.validateStatusUpdateInGrid()'><b>validateStatusUpdateInGrid</b><br>Test class: com.insurEdge.testScripts.US17_P1_20<br>Test method: Test 3: Verify Grid Status updated to Deleted</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //tr[td[normalize-space()=&apos;someCustomerId&apos;]]/td[16], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//tr[td[normalize-space()=&apos;someCustomerId&apos;]]/td[16]&quot;}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50310}, goog:processID: 11808, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50310/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcfa5d964e00acf73b0131ab677ea3ab
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.insurEdge.AuthorizePage.AuthorizePage.getStatusOfCustomerById(AuthorizePage.java:602)
+	at com.insurEdge.testScripts.US17_P1_20.validateStatusUpdateInGrid(US17_P1_20.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace170974144", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace170974144'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //tr[td[normalize-space()=&apos;someCustomerId&apos;]]/td[16], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//tr[td[normalize-space()=&apos;someCustomerId&apos;]]/td[16]&quot;}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50310}, goog:processID: 11808, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50310/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcfa5d964e00acf73b0131ab677ea3ab
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.insurEdge.AuthorizePage.AuthorizePage.getStatusOfCustomerById(AuthorizePage.java:602)
+	at com.insurEdge.testScripts.US17_P1_20.validateStatusUpdateInGrid(US17_P1_20.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>12</td>
+<td>com.insurEdge.testScripts.US17_P1_20@fa4c865</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_12.validateCustomerTableColumnText()'><b>validateCustomerTableColumnText</b><br>Test class: com.insurEdge.testScripts.US17_P1_12</td>
+<td><div><pre>java.lang.AssertionError: Customer Details table column order is incorrect expected [true] but found [false]
+	at com.insurEdge.testScripts.US17_P1_12.validateCustomerTableColumnText(US17_P1_12.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace118887511", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace118887511'><pre>java.lang.AssertionError: Customer Details table column order is incorrect expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.insurEdge.testScripts.US17_P1_12.validateCustomerTableColumnText(US17_P1_12.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_12@1ff4931d</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_16.validateCustomerSearchFromExcelPositive()'><b>validateCustomerSearchFromExcelPositive</b><br>Test class: com.insurEdge.testScripts.US17_P1_16</td>
+<td><div><pre>java.lang.RuntimeException: Error reading Excel file: C:\Users\2461365\eclipse-workspace\com.insurEdge\customer_data.xlsx (The system cannot find the path specified)
+	at com.insurEdge.Utilities.ExcelUtils.readSheet(ExcelUtils.java:42)
+	at com.insurEdge.testScripts.US17_P1_16.validateCustomerSearchFromExcelPositive(US17_P1_16.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.io.FileNotFoundException: C:\Users\2461365\eclipse-workspace\com.insurEdge\customer_data.xlsx (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)
+	at com.insurEdge.Utilities.ExcelUtils.readSheet(ExcelUtils.java:27)
+	... 27 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace496105986", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace496105986'><pre>java.lang.RuntimeException: Error reading Excel file: C:\Users\2461365\eclipse-workspace\com.insurEdge\customer_data.xlsx (The system cannot find the path specified)
+	at com.insurEdge.Utilities.ExcelUtils.readSheet(ExcelUtils.java:42)
+	at com.insurEdge.testScripts.US17_P1_16.validateCustomerSearchFromExcelPositive(US17_P1_16.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.FileNotFoundException: C:\Users\2461365\eclipse-workspace\com.insurEdge\customer_data.xlsx (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)
+	at com.insurEdge.Utilities.ExcelUtils.readSheet(ExcelUtils.java:27)
+	... 27 more
+</pre></div></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_16@510f3d34</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_16.validateCustomerSearchFromExcelNegative()'><b>validateCustomerSearchFromExcelNegative</b><br>Test class: com.insurEdge.testScripts.US17_P1_16</td>
+<td><div><pre>java.lang.RuntimeException: Error reading Excel file: C:\Users\2461365\eclipse-workspace\com.insurEdge\customer_data.xlsx (The system cannot find the path specified)
+	at com.insurEdge.Utilities.ExcelUtils.readSheet(ExcelUtils.java:42)
+	at com.insurEdge.testScripts.US17_P1_16.validateCustomerSearchFromExcelNegative(US17_P1_16.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.io.FileNotFoundException: C:\Users\2461365\eclipse-workspace\com.insurEdge\customer_data.xlsx (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)
+	at com.insurEdge.Utilities.ExcelUtils.readSheet(ExcelUtils.java:27)
+	... 27 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace165875610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace165875610'><pre>java.lang.RuntimeException: Error reading Excel file: C:\Users\2461365\eclipse-workspace\com.insurEdge\customer_data.xlsx (The system cannot find the path specified)
+	at com.insurEdge.Utilities.ExcelUtils.readSheet(ExcelUtils.java:42)
+	at com.insurEdge.testScripts.US17_P1_16.validateCustomerSearchFromExcelNegative(US17_P1_16.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.FileNotFoundException: C:\Users\2461365\eclipse-workspace\com.insurEdge\customer_data.xlsx (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)
+	at com.insurEdge.Utilities.ExcelUtils.readSheet(ExcelUtils.java:27)
+	... 27 more
+</pre></div></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_16@510f3d34</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.customerCreate()'><b>customerCreate</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable: element has zero size
+  (Session info: chrome=142.0.7444.176)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6e7befd0b1f96729432257d877719c4, clickElement {id=f.474E809CD84539ECB0DEFEA8A7B13710.d.E18003AD15CF1451E88B4660351C9D52.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56804}, goog:processID: 26900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56804/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f6e7befd0b1f96729432257d877719c4)] -&gt; css selector: #components-nav a[href*=&apos;CreateCustomer&apos;]]
+Session ID: f6e7befd0b1f96729432257d877719c4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidate(US17_P1_06.java:22)
+	at com.insurEdge.testScripts.US17_P1_06.customerCreate(US17_P1_06.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1612853208", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1612853208'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable: element has zero size
+  (Session info: chrome=142.0.7444.176)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6e7befd0b1f96729432257d877719c4, clickElement {id=f.474E809CD84539ECB0DEFEA8A7B13710.d.E18003AD15CF1451E88B4660351C9D52.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56804}, goog:processID: 26900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56804/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f6e7befd0b1f96729432257d877719c4)] -&gt; css selector: #components-nav a[href*=&apos;CreateCustomer&apos;]]
+Session ID: f6e7befd0b1f96729432257d877719c4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidate(US17_P1_06.java:22)
+	at com.insurEdge.testScripts.US17_P1_06.customerCreate(US17_P1_06.java:93)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.link1Questions()'><b>link1Questions</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid:
+1. url to contain &quot;charts-chartjs&quot;. Current url: &quot;https://qeaskillhub.cognizant.com/AdminRejectedPolicyHolder&quot;
+2. title to contain &quot;404&quot;. Current title: &quot;InsurEdge - Rejected Policy Holders&quot;.
+
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56804}, goog:processID: 26900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56804/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6e7befd0b1f96729432257d877719c4
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidateWith404(US17_P1_06.java:49)
+	at com.insurEdge.testScripts.US17_P1_06.link1Questions(US17_P1_06.java:203)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace662045021", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace662045021'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid:
+1. url to contain &quot;charts-chartjs&quot;. Current url: &quot;https://qeaskillhub.cognizant.com/AdminRejectedPolicyHolder&quot;
+2. title to contain &quot;404&quot;. Current title: &quot;InsurEdge - Rejected Policy Holders&quot;.
+
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56804}, goog:processID: 26900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56804/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6e7befd0b1f96729432257d877719c4
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidateWith404(US17_P1_06.java:49)
+	at com.insurEdge.testScripts.US17_P1_06.link1Questions(US17_P1_06.java:203)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.createMainCategory()'><b>createMainCategory</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;AdminCreateMainCategory.aspx&quot;&gt;...&lt;/a&gt; is not clickable at point (130, 20). Other element would receive the click: &lt;span class=&quot;d-none d-lg-block&quot;&gt;...&lt;/span&gt;
+  (Session info: chrome=142.0.7444.176)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6e7befd0b1f96729432257d877719c4, clickElement {id=f.474E809CD84539ECB0DEFEA8A7B13710.d.C172C4B9B3E2F544F77DDF9B9E1DACE5.e.96}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56804}, goog:processID: 26900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56804/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f6e7befd0b1f96729432257d877719c4)] -&gt; css selector: #forms-nav a[href*=&apos;AdminCreateMainCategory&apos;]]
+Session ID: f6e7befd0b1f96729432257d877719c4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidate(US17_P1_06.java:22)
+	at com.insurEdge.testScripts.US17_P1_06.createMainCategory(US17_P1_06.java:119)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1105282397", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1105282397'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;AdminCreateMainCategory.aspx&quot;&gt;...&lt;/a&gt; is not clickable at point (130, 20). Other element would receive the click: &lt;span class=&quot;d-none d-lg-block&quot;&gt;...&lt;/span&gt;
+  (Session info: chrome=142.0.7444.176)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6e7befd0b1f96729432257d877719c4, clickElement {id=f.474E809CD84539ECB0DEFEA8A7B13710.d.C172C4B9B3E2F544F77DDF9B9E1DACE5.e.96}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56804}, goog:processID: 26900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56804/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f6e7befd0b1f96729432257d877719c4)] -&gt; css selector: #forms-nav a[href*=&apos;AdminCreateMainCategory&apos;]]
+Session ID: f6e7befd0b1f96729432257d877719c4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidate(US17_P1_06.java:22)
+	at com.insurEdge.testScripts.US17_P1_06.createMainCategory(US17_P1_06.java:119)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.createPolicy()'><b>createPolicy</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;AdminCreatePolicy.aspx&quot;&gt;...&lt;/a&gt; is not clickable at point (130, 20). Other element would receive the click: &lt;span class=&quot;d-none d-lg-block&quot;&gt;...&lt;/span&gt;
+  (Session info: chrome=142.0.7444.176)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6e7befd0b1f96729432257d877719c4, clickElement {id=f.474E809CD84539ECB0DEFEA8A7B13710.d.BFB25A4825AD7F87BA97FA49D367326E.e.142}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56804}, goog:processID: 26900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56804/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f6e7befd0b1f96729432257d877719c4)] -&gt; css selector: #tables-nav a[href*=&apos;AdminCreatePolicy&apos;]]
+Session ID: f6e7befd0b1f96729432257d877719c4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidate(US17_P1_06.java:22)
+	at com.insurEdge.testScripts.US17_P1_06.createPolicy(US17_P1_06.java:139)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace873168630", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace873168630'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;AdminCreatePolicy.aspx&quot;&gt;...&lt;/a&gt; is not clickable at point (130, 20). Other element would receive the click: &lt;span class=&quot;d-none d-lg-block&quot;&gt;...&lt;/span&gt;
+  (Session info: chrome=142.0.7444.176)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6e7befd0b1f96729432257d877719c4, clickElement {id=f.474E809CD84539ECB0DEFEA8A7B13710.d.BFB25A4825AD7F87BA97FA49D367326E.e.142}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56804}, goog:processID: 26900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56804/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f6e7befd0b1f96729432257d877719c4)] -&gt; css selector: #tables-nav a[href*=&apos;AdminCreatePolicy&apos;]]
+Session ID: f6e7befd0b1f96729432257d877719c4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidate(US17_P1_06.java:22)
+	at com.insurEdge.testScripts.US17_P1_06.createPolicy(US17_P1_06.java:139)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_14.validateCurrentPageHighlighted()'><b>validateCurrentPageHighlighted</b><br>Test class: com.insurEdge.testScripts.US17_P1_14</td>
+<td><div><pre>java.lang.AssertionError: Current page is not highlighted in pagination controls expected [true] but found [false]
+	at com.insurEdge.testScripts.US17_P1_14.validateCurrentPageHighlighted(US17_P1_14.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace433851698", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace433851698'><pre>java.lang.AssertionError: Current page is not highlighted in pagination controls expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.insurEdge.testScripts.US17_P1_14.validateCurrentPageHighlighted(US17_P1_14.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_14@61322f9d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,45 +646,310 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.insurEdge.testScripts.US17_P1_05.validateHamburgerClose()'><b>validateHamburgerClose</b><br>Test class: com.insurEdge.testScripts.US17_P1_05</td>
+<td title='com.insurEdge.testScripts.US17_P1_20.validateNoSelectionWarning()'><b>validateNoSelectionWarning</b><br>Test class: com.insurEdge.testScripts.US17_P1_20<br>Test method: Test 5: Verify No Selection warning shows</td>
 <td></td>
 <td>0</td>
-<td>com.insurEdge.testScripts.US17_P1_05@77888435</td></tr>
+<td>com.insurEdge.testScripts.US17_P1_20@fa4c865</td></tr>
 <tr>
-<td title='com.insurEdge.testScripts.US17_P1_05.validateHamburgerOpen()'><b>validateHamburgerOpen</b><br>Test class: com.insurEdge.testScripts.US17_P1_05</td>
+<td title='com.insurEdge.testScripts.US17_P1_20.validateConfirmDeletePopup()'><b>validateConfirmDeletePopup</b><br>Test class: com.insurEdge.testScripts.US17_P1_20<br>Test method: Test 1: Validate that when a customer checkbox is selected and the Delete button is clicked, a Delete confirmation popup should be displayed.</td>
 <td></td>
-<td>0</td>
-<td>com.insurEdge.testScripts.US17_P1_05@77888435</td></tr>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_20@fa4c865</td></tr>
 <tr>
-<td title='com.insurEdge.testScripts.US17_P1_01.validateMenuButton()'><b>validateMenuButton</b><br>Test class: com.insurEdge.testScripts.US17_P1_01</td>
+<td title='com.insurEdge.testScripts.US17_P1_06.expandQuestions()'><b>expandQuestions</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
 <td></td>
 <td>0</td>
-<td>com.insurEdge.testScripts.US17_P1_01@47eaca72</td></tr>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
 <tr>
-<td title='com.insurEdge.testScripts.US17_P1_01.validateUserProfileDropdown()'><b>validateUserProfileDropdown</b><br>Test class: com.insurEdge.testScripts.US17_P1_01</td>
+<td title='com.insurEdge.testScripts.US17_P1_17.verifySelect10Records()'><b>verifySelect10Records</b><br>Test class: com.insurEdge.testScripts.US17_P1_17</td>
 <td></td>
-<td>0</td>
-<td>com.insurEdge.testScripts.US17_P1_01@47eaca72</td></tr>
-<tr>
-<td title='com.insurEdge.testScripts.US17_P1_01.validateUsernameDisplayedAndMatch()'><b>validateUsernameDisplayedAndMatch</b><br>Test class: com.insurEdge.testScripts.US17_P1_01</td>
-<td></td>
-<td>0</td>
-<td>com.insurEdge.testScripts.US17_P1_01@47eaca72</td></tr>
+<td>3</td>
+<td>com.insurEdge.testScripts.US17_P1_17@7817fd62</td></tr>
 <tr>
 <td title='com.insurEdge.testScripts.US17_P1_01.validateLogo()'><b>validateLogo</b><br>Test class: com.insurEdge.testScripts.US17_P1_01</td>
 <td></td>
 <td>0</td>
-<td>com.insurEdge.testScripts.US17_P1_01@47eaca72</td></tr>
+<td>com.insurEdge.testScripts.US17_P1_01@3eb25e1a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_15.validateCustomerBreadcrumbRedirectsToDashboard()'><b>validateCustomerBreadcrumbRedirectsToDashboard</b><br>Test class: com.insurEdge.testScripts.US17_P1_15</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_15@6ad82709</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_01.validateUsernameDisplayedAndMatch()'><b>validateUsernameDisplayedAndMatch</b><br>Test class: com.insurEdge.testScripts.US17_P1_01</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_01@3eb25e1a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_09.validateDeleteButtonUI()'><b>validateDeleteButtonUI</b><br>Test class: com.insurEdge.testScripts.US17_P1_09</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_09@2925bf5b</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_08.validateAuthorizeCustomerTitleColor()'><b>validateAuthorizeCustomerTitleColor</b><br>Test class: com.insurEdge.testScripts.US17_P1_08</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_08@45c7e403</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_13.validateCheckboxSelectionToggle()'><b>validateCheckboxSelectionToggle</b><br>Test class: com.insurEdge.testScripts.US17_P1_13</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_13@65e98b1c</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_19.validateConfirmRejectPopup()'><b>validateConfirmRejectPopup</b><br>Test class: com.insurEdge.testScripts.US17_P1_19<br>Test method: Test 1: Verify Confirm Rejection popup shows on selection</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_19@4c178a76</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.createSubCategory()'><b>createSubCategory</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_13.validateCheckboxesVisible()'><b>validateCheckboxesVisible</b><br>Test class: com.insurEdge.testScripts.US17_P1_13</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_13@65e98b1c</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_18.validateConfirmationPopup()'><b>validateConfirmationPopup</b><br>Test class: com.insurEdge.testScripts.US17_P1_18</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_18@b2c9a9c</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.expandPolicyHolders()'><b>expandPolicyHolders</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_16.validateNavigationAndSearchBoxVisible()'><b>validateNavigationAndSearchBoxVisible</b><br>Test class: com.insurEdge.testScripts.US17_P1_16</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_16@510f3d34</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_01.validateMenuButton()'><b>validateMenuButton</b><br>Test class: com.insurEdge.testScripts.US17_P1_01</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_01@3eb25e1a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_10.validatePlaceholderText()'><b>validatePlaceholderText</b><br>Test class: com.insurEdge.testScripts.US17_P1_10</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_10@710f4dc7</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.customerView()'><b>customerView</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_09.validateRejectButtonUI()'><b>validateRejectButtonUI</b><br>Test class: com.insurEdge.testScripts.US17_P1_09</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_09@2925bf5b</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_19.validateNoSelectionWarning()'><b>validateNoSelectionWarning</b><br>Test class: com.insurEdge.testScripts.US17_P1_19<br>Test method: Test 5: Verify No Selection warning shows</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_19@4c178a76</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_15.customerBreadcrumbClickableAcrossResolutions()'><b>customerBreadcrumbClickableAcrossResolutions</b><br>Test class: com.insurEdge.testScripts.US17_P1_15<br>Parameters: 1920, 1080</td>
+<td></td>
+<td>2</td>
+<td>com.insurEdge.testScripts.US17_P1_15@6ad82709</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_18.validateApproveButtonPopup()'><b>validateApproveButtonPopup</b><br>Test class: com.insurEdge.testScripts.US17_P1_18</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_18@b2c9a9c</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.expandPolicy()'><b>expandPolicy</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
 <tr>
 <td title='com.insurEdge.testScripts.US17_P1_01.validateProfileImageCircular()'><b>validateProfileImageCircular</b><br>Test class: com.insurEdge.testScripts.US17_P1_01</td>
 <td></td>
 <td>0</td>
-<td>com.insurEdge.testScripts.US17_P1_01@47eaca72</td></tr>
+<td>com.insurEdge.testScripts.US17_P1_01@3eb25e1a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.expandCategory()'><b>expandCategory</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_20.validateDeletionSuccess()'><b>validateDeletionSuccess</b><br>Test class: com.insurEdge.testScripts.US17_P1_20<br>Test method: Test 2: Verify Success popup shows after OK</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_20@fa4c865</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.viewPolicy()'><b>viewPolicy</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_17.verifySelect20Records()'><b>verifySelect20Records</b><br>Test class: com.insurEdge.testScripts.US17_P1_17</td>
+<td></td>
+<td>6</td>
+<td>com.insurEdge.testScripts.US17_P1_17@7817fd62</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_20.validateDeleteWithNoSelection()'><b>validateDeleteWithNoSelection</b><br>Test class: com.insurEdge.testScripts.US17_P1_20<br>Test method: Test 4: Verify Confirm popup shows even with NO selection</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_20@fa4c865</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_19.validateRejectWithNoSelection()'><b>validateRejectWithNoSelection</b><br>Test class: com.insurEdge.testScripts.US17_P1_19<br>Test method: Test 4: Verify Confirm popup shows even with NO selection</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_19@4c178a76</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.modifyPolicy()'><b>modifyPolicy</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_17.verifyRecordsDropdownOptions()'><b>verifyRecordsDropdownOptions</b><br>Test class: com.insurEdge.testScripts.US17_P1_17</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_17@7817fd62</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_05.validateHamburgerOpen()'><b>validateHamburgerOpen</b><br>Test class: com.insurEdge.testScripts.US17_P1_05</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_05@6f03482</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.dashboard()'><b>dashboard</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
 <tr>
 <td title='com.insurEdge.testScripts.US17_P1_01.validateUsernameColorAndPosition()'><b>validateUsernameColorAndPosition</b><br>Test class: com.insurEdge.testScripts.US17_P1_01</td>
 <td></td>
 <td>0</td>
-<td>com.insurEdge.testScripts.US17_P1_01@47eaca72</td></tr>
+<td>com.insurEdge.testScripts.US17_P1_01@3eb25e1a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_12.validateCustomerTableColumnCount()'><b>validateCustomerTableColumnCount</b><br>Test class: com.insurEdge.testScripts.US17_P1_12</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_12@1ff4931d</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_07.validateFooterHyperLink()'><b>validateFooterHyperLink</b><br>Test class: com.insurEdge.testScripts.US17_P1_07</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_07@179ece50</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.approvedPolicyHolder()'><b>approvedPolicyHolder</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_14.validatePaginationControlsClickable()'><b>validatePaginationControlsClickable</b><br>Test class: com.insurEdge.testScripts.US17_P1_14</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_14@61322f9d</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_10.validateSearchBoxAppearance()'><b>validateSearchBoxAppearance</b><br>Test class: com.insurEdge.testScripts.US17_P1_10</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_10@710f4dc7</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_15.validateCustomerBreadcrumbVisibleAndStyled()'><b>validateCustomerBreadcrumbVisibleAndStyled</b><br>Test class: com.insurEdge.testScripts.US17_P1_15</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_15@6ad82709</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_18.validateStatusChange()'><b>validateStatusChange</b><br>Test class: com.insurEdge.testScripts.US17_P1_18</td>
+<td></td>
+<td>5</td>
+<td>com.insurEdge.testScripts.US17_P1_18@b2c9a9c</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_19.validateStatusUpdateInGrid()'><b>validateStatusUpdateInGrid</b><br>Test class: com.insurEdge.testScripts.US17_P1_19<br>Test method: Test 3: Verify Grid Status updated to Rejected</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_19@4c178a76</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.rejectedPolicyHolder()'><b>rejectedPolicyHolder</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_19.validateRejectionSuccess()'><b>validateRejectionSuccess</b><br>Test class: com.insurEdge.testScripts.US17_P1_19<br>Test method: Test 2: Verify Success popup shows after OK</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_19@4c178a76</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_10.validateSearchBoxPosition()'><b>validateSearchBoxPosition</b><br>Test class: com.insurEdge.testScripts.US17_P1_10</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_10@710f4dc7</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.authorizePolicy()'><b>authorizePolicy</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_17.verifyDefaultRecordsDropdownValue()'><b>verifyDefaultRecordsDropdownValue</b><br>Test class: com.insurEdge.testScripts.US17_P1_17</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_17@7817fd62</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_17.verifySelect5Records()'><b>verifySelect5Records</b><br>Test class: com.insurEdge.testScripts.US17_P1_17</td>
+<td></td>
+<td>2</td>
+<td>com.insurEdge.testScripts.US17_P1_17@7817fd62</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_01.validateUserProfileDropdown()'><b>validateUserProfileDropdown</b><br>Test class: com.insurEdge.testScripts.US17_P1_01</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_01@3eb25e1a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_15.customerBreadcrumbClickableAcrossResolutions()'><b>customerBreadcrumbClickableAcrossResolutions</b><br>Test class: com.insurEdge.testScripts.US17_P1_15<br>Parameters: 1366, 768</td>
+<td></td>
+<td>2</td>
+<td>com.insurEdge.testScripts.US17_P1_15@6ad82709</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_12.validateCustomerTableAppearance()'><b>validateCustomerTableAppearance</b><br>Test class: com.insurEdge.testScripts.US17_P1_12</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_12@1ff4931d</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.pendingPolicyHolder()'><b>pendingPolicyHolder</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.customerAuthorize()'><b>customerAuthorize</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>1</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.expandCustomer()'><b>expandCustomer</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_08.validateBreadcrumbTrailPresence()'><b>validateBreadcrumbTrailPresence</b><br>Test class: com.insurEdge.testScripts.US17_P1_08</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_08@45c7e403</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_09.validateApproveButtonUI()'><b>validateApproveButtonUI</b><br>Test class: com.insurEdge.testScripts.US17_P1_09</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_09@2925bf5b</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_07.validateFooterCredits()'><b>validateFooterCredits</b><br>Test class: com.insurEdge.testScripts.US17_P1_07</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_07@179ece50</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_06.appliedPolicyHolder()'><b>appliedPolicyHolder</b><br>Test class: com.insurEdge.testScripts.US17_P1_06</td>
+<td></td>
+<td>0</td>
+<td>com.insurEdge.testScripts.US17_P1_06@9d5509a</td></tr>
+<tr>
+<td title='com.insurEdge.testScripts.US17_P1_05.validateHamburgerClose()'><b>validateHamburgerClose</b><br>Test class: com.insurEdge.testScripts.US17_P1_05</td>
+<td></td>
+<td>2</td>
+<td>com.insurEdge.testScripts.US17_P1_05@6f03482</td></tr>
 </table><p>
 </body>
 </html>

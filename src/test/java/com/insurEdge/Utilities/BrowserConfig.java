@@ -28,8 +28,8 @@ public class BrowserConfig {
             default:
                 throw new IllegalArgumentException("Unknown Browser: " + browser);
         }
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().window().maximize();
         driver.get(url);
 

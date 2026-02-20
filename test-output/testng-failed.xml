@@ -5,36 +5,17 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="https://qeaskillhub.cognizant.com/LoginPage"/>
     <classes>
-      <class name="com.insurEdge.testScripts.US17_P1_05">
-        <methods>
-          <include name="validateHamburgerOpen"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.insurEdge.testScripts.US17_P1_05 -->
-      <class name="com.insurEdge.testScripts.US17_P1_04">
-        <methods>
-          <include name="validateArrowAndUserNameBox"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.insurEdge.testScripts.US17_P1_04 -->
       <class name="com.insurEdge.testScripts.US17_P1_06">
         <methods>
+          <include name="createPolicy"/>
           <include name="link2Questions"/>
+          <include name="createMainCategory"/>
           <include name="setUp"/>
           <include name="link1Questions"/>
           <include name="tearDown"/>
+          <include name="customerCreate"/>
         </methods>
       </class> <!-- com.insurEdge.testScripts.US17_P1_06 -->
-      <class name="com.insurEdge.testScripts.US17_P1_12">
-        <methods>
-          <include name="validateCustomerTableColumnText"/>
-          <include name="initAuthorizePage"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.insurEdge.testScripts.US17_P1_12 -->
       <class name="com.insurEdge.testScripts.US17_P1_14">
         <methods>
           <include name="initAuthorizePage"/>
@@ -43,16 +24,33 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.insurEdge.testScripts.US17_P1_14 -->
+      <class name="com.insurEdge.testScripts.US17_P1_16">
+        <methods>
+          <include name="validateCustomerSearchFromExcelNegative"/>
+          <include name="validateCustomerSearchFromExcelPositive"/>
+          <include name="initAuthorizePage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.insurEdge.testScripts.US17_P1_16 -->
       <class name="com.insurEdge.testScripts.US17_P1_20">
         <methods>
           <include name="validateConfirmDeletePopup"/>
           <include name="validateDeletionSuccess"/>
           <include name="validateStatusUpdateInGrid"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
           <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.insurEdge.testScripts.US17_P1_20 -->
+      <class name="com.insurEdge.testScripts.US17_P1_12">
+        <methods>
+          <include name="validateCustomerTableColumnText"/>
+          <include name="initAuthorizePage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.insurEdge.testScripts.US17_P1_12 -->
     </classes>
   </test> <!-- HeaderAndLeftPanelTests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\2461407\AppData\Local\Temp\testng-eclipse-1770553755\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2461407\eclipse-workspace\InsurEdge_QE17Pod1\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,46 +92,380 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">71 methods, 10 failed,   61 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="createMainCategory">createMainCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="createPolicy">createPolicy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="customerCreate">customerCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="link1Questions">link1Questions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="link2Questions">link2Questions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_14" class="method navigator-link" hash-for-method="validateCurrentPageHighlighted">validateCurrentPageHighlighted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_16" class="method navigator-link" hash-for-method="validateCustomerSearchFromExcelNegative">validateCustomerSearchFromExcelNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_16" class="method navigator-link" hash-for-method="validateCustomerSearchFromExcelPositive">validateCustomerSearchFromExcelPositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_12" class="method navigator-link" hash-for-method="validateCustomerTableColumnText">validateCustomerTableColumnText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_20" class="method navigator-link" hash-for-method="validateStatusUpdateInGrid">validateStatusUpdateInGrid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.insurEdge.testScripts.US17_P1_01" class="method navigator-link" hash-for-method="validateLogo">validateLogo</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="appliedPolicyHolder">appliedPolicyHolder</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.insurEdge.testScripts.US17_P1_01" class="method navigator-link" hash-for-method="validateMenuButton">validateMenuButton</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="approvedPolicyHolder">approvedPolicyHolder</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.insurEdge.testScripts.US17_P1_01" class="method navigator-link" hash-for-method="validateProfileImageCircular">validateProfileImageCircular</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="authorizePolicy">authorizePolicy</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.insurEdge.testScripts.US17_P1_01" class="method navigator-link" hash-for-method="validateUserProfileDropdown">validateUserProfileDropdown</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="createSubCategory">createSubCategory</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.insurEdge.testScripts.US17_P1_01" class="method navigator-link" hash-for-method="validateUsernameColorAndPosition">validateUsernameColorAndPosition</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="customerAuthorize">customerAuthorize</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.insurEdge.testScripts.US17_P1_01" class="method navigator-link" hash-for-method="validateUsernameDisplayedAndMatch">validateUsernameDisplayedAndMatch</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_15" class="method navigator-link" hash-for-method="customerBreadcrumbClickableAcrossResolutions(1920, 1080)">customerBreadcrumbClickableAcrossResolutions(1920, 1080)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_15" class="method navigator-link" hash-for-method="customerBreadcrumbClickableAcrossResolutions(1366, 768)">customerBreadcrumbClickableAcrossResolutions(1366, 768)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="customerView">customerView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="dashboard">dashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="expandCategory">expandCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="expandCustomer">expandCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="expandPolicy">expandPolicy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="expandPolicyHolders">expandPolicyHolders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="expandQuestions">expandQuestions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="modifyPolicy">modifyPolicy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="pendingPolicyHolder">pendingPolicyHolder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="rejectedPolicyHolder">rejectedPolicyHolder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_18" class="method navigator-link" hash-for-method="validateApproveButtonPopup">validateApproveButtonPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_09" class="method navigator-link" hash-for-method="validateApproveButtonUI">validateApproveButtonUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_08" class="method navigator-link" hash-for-method="validateAuthorizeCustomerTitleColor">validateAuthorizeCustomerTitleColor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_08" class="method navigator-link" hash-for-method="validateBreadcrumbTrailPresence">validateBreadcrumbTrailPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_13" class="method navigator-link" hash-for-method="validateCheckboxSelectionToggle">validateCheckboxSelectionToggle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_13" class="method navigator-link" hash-for-method="validateCheckboxesVisible">validateCheckboxesVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_20" class="method navigator-link" hash-for-method="validateConfirmDeletePopup">validateConfirmDeletePopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_19" class="method navigator-link" hash-for-method="validateConfirmRejectPopup">validateConfirmRejectPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_18" class="method navigator-link" hash-for-method="validateConfirmationPopup">validateConfirmationPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_15" class="method navigator-link" hash-for-method="validateCustomerBreadcrumbRedirectsToDashboard">validateCustomerBreadcrumbRedirectsToDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_15" class="method navigator-link" hash-for-method="validateCustomerBreadcrumbVisibleAndStyled">validateCustomerBreadcrumbVisibleAndStyled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_12" class="method navigator-link" hash-for-method="validateCustomerTableAppearance">validateCustomerTableAppearance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_12" class="method navigator-link" hash-for-method="validateCustomerTableColumnCount">validateCustomerTableColumnCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_09" class="method navigator-link" hash-for-method="validateDeleteButtonUI">validateDeleteButtonUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_20" class="method navigator-link" hash-for-method="validateDeleteWithNoSelection">validateDeleteWithNoSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_20" class="method navigator-link" hash-for-method="validateDeletionSuccess">validateDeletionSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_07" class="method navigator-link" hash-for-method="validateFooterCredits">validateFooterCredits</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_07" class="method navigator-link" hash-for-method="validateFooterHyperLink">validateFooterHyperLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_05" class="method navigator-link" hash-for-method="validateHamburgerClose">validateHamburgerClose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_05" class="method navigator-link" hash-for-method="validateHamburgerOpen">validateHamburgerOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_01" class="method navigator-link" hash-for-method="validateLogo">validateLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_01" class="method navigator-link" hash-for-method="validateMenuButton">validateMenuButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_16" class="method navigator-link" hash-for-method="validateNavigationAndSearchBoxVisible">validateNavigationAndSearchBoxVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_20" class="method navigator-link" hash-for-method="validateNoSelectionWarning">validateNoSelectionWarning</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_19" class="method navigator-link" hash-for-method="validateNoSelectionWarning">validateNoSelectionWarning</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_14" class="method navigator-link" hash-for-method="validatePaginationControlsClickable">validatePaginationControlsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_10" class="method navigator-link" hash-for-method="validatePlaceholderText">validatePlaceholderText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_01" class="method navigator-link" hash-for-method="validateProfileImageCircular">validateProfileImageCircular</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_09" class="method navigator-link" hash-for-method="validateRejectButtonUI">validateRejectButtonUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_19" class="method navigator-link" hash-for-method="validateRejectWithNoSelection">validateRejectWithNoSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_19" class="method navigator-link" hash-for-method="validateRejectionSuccess">validateRejectionSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_10" class="method navigator-link" hash-for-method="validateSearchBoxAppearance">validateSearchBoxAppearance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_10" class="method navigator-link" hash-for-method="validateSearchBoxPosition">validateSearchBoxPosition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_18" class="method navigator-link" hash-for-method="validateStatusChange">validateStatusChange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_19" class="method navigator-link" hash-for-method="validateStatusUpdateInGrid">validateStatusUpdateInGrid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_01" class="method navigator-link" hash-for-method="validateUserProfileDropdown">validateUserProfileDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_01" class="method navigator-link" hash-for-method="validateUsernameColorAndPosition">validateUsernameColorAndPosition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_01" class="method navigator-link" hash-for-method="validateUsernameDisplayedAndMatch">validateUsernameDisplayedAndMatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_17" class="method navigator-link" hash-for-method="verifyDefaultRecordsDropdownValue">verifyDefaultRecordsDropdownValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_17" class="method navigator-link" hash-for-method="verifyRecordsDropdownOptions">verifyRecordsDropdownOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_17" class="method navigator-link" hash-for-method="verifySelect10Records">verifySelect10Records</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_17" class="method navigator-link" hash-for-method="verifySelect20Records">verifySelect20Records</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_17" class="method navigator-link" hash-for-method="verifySelect5Records">verifySelect5Records</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.insurEdge.testScripts.US17_P1_06" class="method navigator-link" hash-for-method="viewPolicy">viewPolicy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -142,8 +476,552 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_06</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createMainCategory">
+                  </a> <!-- createMainCategory -->
+                  <span class="method-name">createMainCategory</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;AdminCreateMainCategory.aspx&quot;&gt;...&lt;/a&gt; is not clickable at point (130, 20). Other element would receive the click: &lt;span class=&quot;d-none d-lg-block&quot;&gt;...&lt;/span&gt;
+  (Session info: chrome=142.0.7444.176)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6e7befd0b1f96729432257d877719c4, clickElement {id=f.474E809CD84539ECB0DEFEA8A7B13710.d.C172C4B9B3E2F544F77DDF9B9E1DACE5.e.96}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56804}, goog:processID: 26900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56804/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f6e7befd0b1f96729432257d877719c4)] -&gt; css selector: #forms-nav a[href*=&apos;AdminCreateMainCategory&apos;]]
+Session ID: f6e7befd0b1f96729432257d877719c4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidate(US17_P1_06.java:22)
+	at com.insurEdge.testScripts.US17_P1_06.createMainCategory(US17_P1_06.java:119)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPolicy">
+                  </a> <!-- createPolicy -->
+                  <span class="method-name">createPolicy</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;AdminCreatePolicy.aspx&quot;&gt;...&lt;/a&gt; is not clickable at point (130, 20). Other element would receive the click: &lt;span class=&quot;d-none d-lg-block&quot;&gt;...&lt;/span&gt;
+  (Session info: chrome=142.0.7444.176)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6e7befd0b1f96729432257d877719c4, clickElement {id=f.474E809CD84539ECB0DEFEA8A7B13710.d.BFB25A4825AD7F87BA97FA49D367326E.e.142}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56804}, goog:processID: 26900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56804/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f6e7befd0b1f96729432257d877719c4)] -&gt; css selector: #tables-nav a[href*=&apos;AdminCreatePolicy&apos;]]
+Session ID: f6e7befd0b1f96729432257d877719c4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidate(US17_P1_06.java:22)
+	at com.insurEdge.testScripts.US17_P1_06.createPolicy(US17_P1_06.java:139)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerCreate">
+                  </a> <!-- customerCreate -->
+                  <span class="method-name">customerCreate</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable: element has zero size
+  (Session info: chrome=142.0.7444.176)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6e7befd0b1f96729432257d877719c4, clickElement {id=f.474E809CD84539ECB0DEFEA8A7B13710.d.E18003AD15CF1451E88B4660351C9D52.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56804}, goog:processID: 26900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56804/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f6e7befd0b1f96729432257d877719c4)] -&gt; css selector: #components-nav a[href*=&apos;CreateCustomer&apos;]]
+Session ID: f6e7befd0b1f96729432257d877719c4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidate(US17_P1_06.java:22)
+	at com.insurEdge.testScripts.US17_P1_06.customerCreate(US17_P1_06.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="link1Questions">
+                  </a> <!-- link1Questions -->
+                  <span class="method-name">link1Questions</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid:
+1. url to contain &quot;charts-chartjs&quot;. Current url: &quot;https://qeaskillhub.cognizant.com/AdminRejectedPolicyHolder&quot;
+2. title to contain &quot;404&quot;. Current title: &quot;InsurEdge - Rejected Policy Holders&quot;.
+
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56804}, goog:processID: 26900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56804/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6e7befd0b1f96729432257d877719c4
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidateWith404(US17_P1_06.java:49)
+	at com.insurEdge.testScripts.US17_P1_06.link1Questions(US17_P1_06.java:203)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="link2Questions">
+                  </a> <!-- link2Questions -->
+                  <span class="method-name">link2Questions</span>
+                  <div class="stack-trace">java.lang.AssertionError: Link2 Questions NOT reached - Link returned 404
+	at com.insurEdge.testScripts.US17_P1_06.clickAndValidateWith404(US17_P1_06.java:57)
+	at com.insurEdge.testScripts.US17_P1_06.link2Questions(US17_P1_06.java:209)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_14</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCurrentPageHighlighted">
+                  </a> <!-- validateCurrentPageHighlighted -->
+                  <span class="method-name">validateCurrentPageHighlighted</span>
+                  <div class="stack-trace">java.lang.AssertionError: Current page is not highlighted in pagination controls expected [true] but found [false]
+	at com.insurEdge.testScripts.US17_P1_14.validateCurrentPageHighlighted(US17_P1_14.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_16</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCustomerSearchFromExcelNegative">
+                  </a> <!-- validateCustomerSearchFromExcelNegative -->
+                  <span class="method-name">validateCustomerSearchFromExcelNegative</span>
+                  <div class="stack-trace">java.lang.RuntimeException: Error reading Excel file: C:\Users\2461365\eclipse-workspace\com.insurEdge\customer_data.xlsx (The system cannot find the path specified)
+	at com.insurEdge.Utilities.ExcelUtils.readSheet(ExcelUtils.java:42)
+	at com.insurEdge.testScripts.US17_P1_16.validateCustomerSearchFromExcelNegative(US17_P1_16.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.io.FileNotFoundException: C:\Users\2461365\eclipse-workspace\com.insurEdge\customer_data.xlsx (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)
+	at com.insurEdge.Utilities.ExcelUtils.readSheet(ExcelUtils.java:27)
+	... 27 more
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCustomerSearchFromExcelPositive">
+                  </a> <!-- validateCustomerSearchFromExcelPositive -->
+                  <span class="method-name">validateCustomerSearchFromExcelPositive</span>
+                  <div class="stack-trace">java.lang.RuntimeException: Error reading Excel file: C:\Users\2461365\eclipse-workspace\com.insurEdge\customer_data.xlsx (The system cannot find the path specified)
+	at com.insurEdge.Utilities.ExcelUtils.readSheet(ExcelUtils.java:42)
+	at com.insurEdge.testScripts.US17_P1_16.validateCustomerSearchFromExcelPositive(US17_P1_16.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.io.FileNotFoundException: C:\Users\2461365\eclipse-workspace\com.insurEdge\customer_data.xlsx (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)
+	at com.insurEdge.Utilities.ExcelUtils.readSheet(ExcelUtils.java:27)
+	... 27 more
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_20</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateStatusUpdateInGrid">
+                  </a> <!-- validateStatusUpdateInGrid -->
+                  <span class="method-name">validateStatusUpdateInGrid</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //tr[td[normalize-space()=&apos;someCustomerId&apos;]]/td[16], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//tr[td[normalize-space()=&apos;someCustomerId&apos;]]/td[16]&quot;}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461407\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50310}, goog:processID: 11808, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50310/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcfa5d964e00acf73b0131ab677ea3ab
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.insurEdge.AuthorizePage.AuthorizePage.getStatusOfCustomerById(AuthorizePage.java:602)
+	at com.insurEdge.testScripts.US17_P1_20.validateStatusUpdateInGrid(US17_P1_20.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test 3: Verify Grid Status updated to Deleted)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_12</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCustomerTableColumnText">
+                  </a> <!-- validateCustomerTableColumnText -->
+                  <span class="method-name">validateCustomerTableColumnText</span>
+                  <div class="stack-trace">java.lang.AssertionError: Customer Details table column order is incorrect expected [true] but found [false]
+	at com.insurEdge.testScripts.US17_P1_12.validateCustomerTableColumnText(US17_P1_12.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_19</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateConfirmRejectPopup">
+                  </a> <!-- validateConfirmRejectPopup -->
+                  <span class="method-name">validateConfirmRejectPopup</span>
+                  <em>
+(Test 1: Verify Confirm Rejection popup shows on selection)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNoSelectionWarning">
+                  </a> <!-- validateNoSelectionWarning -->
+                  <span class="method-name">validateNoSelectionWarning</span>
+                  <em>
+(Test 5: Verify No Selection warning shows)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRejectWithNoSelection">
+                  </a> <!-- validateRejectWithNoSelection -->
+                  <span class="method-name">validateRejectWithNoSelection</span>
+                  <em>
+(Test 4: Verify Confirm popup shows even with NO selection)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRejectionSuccess">
+                  </a> <!-- validateRejectionSuccess -->
+                  <span class="method-name">validateRejectionSuccess</span>
+                  <em>
+(Test 2: Verify Success popup shows after OK)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateStatusUpdateInGrid">
+                  </a> <!-- validateStatusUpdateInGrid -->
+                  <span class="method-name">validateStatusUpdateInGrid</span>
+                  <em>
+(Test 3: Verify Grid Status updated to Rejected)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_06</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="appliedPolicyHolder">
+                  </a> <!-- appliedPolicyHolder -->
+                  <span class="method-name">appliedPolicyHolder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="approvedPolicyHolder">
+                  </a> <!-- approvedPolicyHolder -->
+                  <span class="method-name">approvedPolicyHolder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="authorizePolicy">
+                  </a> <!-- authorizePolicy -->
+                  <span class="method-name">authorizePolicy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createSubCategory">
+                  </a> <!-- createSubCategory -->
+                  <span class="method-name">createSubCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerAuthorize">
+                  </a> <!-- customerAuthorize -->
+                  <span class="method-name">customerAuthorize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerView">
+                  </a> <!-- customerView -->
+                  <span class="method-name">customerView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboard">
+                  </a> <!-- dashboard -->
+                  <span class="method-name">dashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="expandCategory">
+                  </a> <!-- expandCategory -->
+                  <span class="method-name">expandCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="expandCustomer">
+                  </a> <!-- expandCustomer -->
+                  <span class="method-name">expandCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="expandPolicy">
+                  </a> <!-- expandPolicy -->
+                  <span class="method-name">expandPolicy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="expandPolicyHolders">
+                  </a> <!-- expandPolicyHolders -->
+                  <span class="method-name">expandPolicyHolders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="expandQuestions">
+                  </a> <!-- expandQuestions -->
+                  <span class="method-name">expandQuestions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifyPolicy">
+                  </a> <!-- modifyPolicy -->
+                  <span class="method-name">modifyPolicy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pendingPolicyHolder">
+                  </a> <!-- pendingPolicyHolder -->
+                  <span class="method-name">pendingPolicyHolder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rejectedPolicyHolder">
+                  </a> <!-- rejectedPolicyHolder -->
+                  <span class="method-name">rejectedPolicyHolder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewPolicy">
+                  </a> <!-- viewPolicy -->
+                  <span class="method-name">viewPolicy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_14</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePaginationControlsClickable">
+                  </a> <!-- validatePaginationControlsClickable -->
+                  <span class="method-name">validatePaginationControlsClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_13</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCheckboxSelectionToggle">
+                  </a> <!-- validateCheckboxSelectionToggle -->
+                  <span class="method-name">validateCheckboxSelectionToggle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCheckboxesVisible">
+                  </a> <!-- validateCheckboxesVisible -->
+                  <span class="method-name">validateCheckboxesVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_09</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateApproveButtonUI">
+                  </a> <!-- validateApproveButtonUI -->
+                  <span class="method-name">validateApproveButtonUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDeleteButtonUI">
+                  </a> <!-- validateDeleteButtonUI -->
+                  <span class="method-name">validateDeleteButtonUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRejectButtonUI">
+                  </a> <!-- validateRejectButtonUI -->
+                  <span class="method-name">validateRejectButtonUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_07</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFooterCredits">
+                  </a> <!-- validateFooterCredits -->
+                  <span class="method-name">validateFooterCredits</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFooterHyperLink">
+                  </a> <!-- validateFooterHyperLink -->
+                  <span class="method-name">validateFooterHyperLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_10</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePlaceholderText">
+                  </a> <!-- validatePlaceholderText -->
+                  <span class="method-name">validatePlaceholderText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchBoxAppearance">
+                  </a> <!-- validateSearchBoxAppearance -->
+                  <span class="method-name">validateSearchBoxAppearance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchBoxPosition">
+                  </a> <!-- validateSearchBoxPosition -->
+                  <span class="method-name">validateSearchBoxPosition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.insurEdge.testScripts.US17_P1_01</span>
@@ -192,109 +1070,622 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_16</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNavigationAndSearchBoxVisible">
+                  </a> <!-- validateNavigationAndSearchBoxVisible -->
+                  <span class="method-name">validateNavigationAndSearchBoxVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_20</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateConfirmDeletePopup">
+                  </a> <!-- validateConfirmDeletePopup -->
+                  <span class="method-name">validateConfirmDeletePopup</span>
+                  <em>
+(Test 1: Validate that when a customer checkbox is selected and the Delete button is clicked, a Delete confirmation popup should be displayed.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDeleteWithNoSelection">
+                  </a> <!-- validateDeleteWithNoSelection -->
+                  <span class="method-name">validateDeleteWithNoSelection</span>
+                  <em>
+(Test 4: Verify Confirm popup shows even with NO selection)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDeletionSuccess">
+                  </a> <!-- validateDeletionSuccess -->
+                  <span class="method-name">validateDeletionSuccess</span>
+                  <em>
+(Test 2: Verify Success popup shows after OK)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNoSelectionWarning">
+                  </a> <!-- validateNoSelectionWarning -->
+                  <span class="method-name">validateNoSelectionWarning</span>
+                  <em>
+(Test 5: Verify No Selection warning shows)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_18</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateApproveButtonPopup">
+                  </a> <!-- validateApproveButtonPopup -->
+                  <span class="method-name">validateApproveButtonPopup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateConfirmationPopup">
+                  </a> <!-- validateConfirmationPopup -->
+                  <span class="method-name">validateConfirmationPopup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateStatusChange">
+                  </a> <!-- validateStatusChange -->
+                  <span class="method-name">validateStatusChange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_08</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAuthorizeCustomerTitleColor">
+                  </a> <!-- validateAuthorizeCustomerTitleColor -->
+                  <span class="method-name">validateAuthorizeCustomerTitleColor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateBreadcrumbTrailPresence">
+                  </a> <!-- validateBreadcrumbTrailPresence -->
+                  <span class="method-name">validateBreadcrumbTrailPresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_15</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerBreadcrumbClickableAcrossResolutions(1920, 1080)">
+                  </a> <!-- customerBreadcrumbClickableAcrossResolutions(1920, 1080) -->
+                  <span class="method-name">customerBreadcrumbClickableAcrossResolutions</span>
+                  <span class="parameters">(1920,1080)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerBreadcrumbClickableAcrossResolutions(1366, 768)">
+                  </a> <!-- customerBreadcrumbClickableAcrossResolutions(1366, 768) -->
+                  <span class="method-name">customerBreadcrumbClickableAcrossResolutions</span>
+                  <span class="parameters">(1366,768)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCustomerBreadcrumbRedirectsToDashboard">
+                  </a> <!-- validateCustomerBreadcrumbRedirectsToDashboard -->
+                  <span class="method-name">validateCustomerBreadcrumbRedirectsToDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCustomerBreadcrumbVisibleAndStyled">
+                  </a> <!-- validateCustomerBreadcrumbVisibleAndStyled -->
+                  <span class="method-name">validateCustomerBreadcrumbVisibleAndStyled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_17</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDefaultRecordsDropdownValue">
+                  </a> <!-- verifyDefaultRecordsDropdownValue -->
+                  <span class="method-name">verifyDefaultRecordsDropdownValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRecordsDropdownOptions">
+                  </a> <!-- verifyRecordsDropdownOptions -->
+                  <span class="method-name">verifyRecordsDropdownOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySelect10Records">
+                  </a> <!-- verifySelect10Records -->
+                  <span class="method-name">verifySelect10Records</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySelect20Records">
+                  </a> <!-- verifySelect20Records -->
+                  <span class="method-name">verifySelect20Records</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySelect5Records">
+                  </a> <!-- verifySelect5Records -->
+                  <span class="method-name">verifySelect5Records</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_05</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHamburgerClose">
+                  </a> <!-- validateHamburgerClose -->
+                  <span class="method-name">validateHamburgerClose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHamburgerOpen">
+                  </a> <!-- validateHamburgerOpen -->
+                  <span class="method-name">validateHamburgerOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insurEdge.testScripts.US17_P1_12</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCustomerTableAppearance">
+                  </a> <!-- validateCustomerTableAppearance -->
+                  <span class="method-name">validateCustomerTableAppearance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCustomerTableColumnCount">
+                  </a> <!-- validateCustomerTableColumnCount -->
+                  <span class="method-name">validateCustomerTableColumnCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\2461407\AppData\Local\Temp\testng-eclipse-1770553755\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\2461407\eclipse-workspace\InsurEdge_QE17Pod1\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HeaderAndLeftPanelTests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://qeaskillhub.cognizant.com/LoginPage&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_01&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_05&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_06&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_07&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_08&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_09&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_10&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_11&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_12&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_13&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_14&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_15&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_16&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_17&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_18&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_19&quot;/&gt;
+      &lt;class name=&quot;com.insurEdge.testScripts.US17_P1_20&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- HeaderAndLeftPanelTests --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">HeaderAndLeftPanelTests (17 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(71);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validateMenuButton')
-data.setCell(0, 2, 'com.insurEdge.testScripts.US17_P1_01')
-data.setCell(0, 3, 368);
+data.setCell(0, 1, 'validateStatusUpdateInGrid')
+data.setCell(0, 2, 'com.insurEdge.testScripts.US17_P1_20')
+data.setCell(0, 3, 12104);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateLogo')
-data.setCell(1, 2, 'com.insurEdge.testScripts.US17_P1_01')
-data.setCell(1, 3, 253);
+data.setCell(1, 1, 'link1Questions')
+data.setCell(1, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(1, 3, 10983);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateUserProfileDropdown')
-data.setCell(2, 2, 'com.insurEdge.testScripts.US17_P1_01')
-data.setCell(2, 3, 102);
+data.setCell(2, 1, 'verifySelect20Records')
+data.setCell(2, 2, 'com.insurEdge.testScripts.US17_P1_17')
+data.setCell(2, 3, 6147);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateUsernameDisplayedAndMatch')
-data.setCell(3, 2, 'com.insurEdge.testScripts.US17_P1_01')
-data.setCell(3, 3, 65);
+data.setCell(3, 1, 'validateStatusChange')
+data.setCell(3, 2, 'com.insurEdge.testScripts.US17_P1_18')
+data.setCell(3, 3, 5400);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validateUsernameColorAndPosition')
-data.setCell(4, 2, 'com.insurEdge.testScripts.US17_P1_01')
-data.setCell(4, 3, 51);
+data.setCell(4, 1, 'verifySelect10Records')
+data.setCell(4, 2, 'com.insurEdge.testScripts.US17_P1_17')
+data.setCell(4, 3, 3691);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validateProfileImageCircular')
-data.setCell(5, 2, 'com.insurEdge.testScripts.US17_P1_01')
-data.setCell(5, 3, 33);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(5, 1, 'customerBreadcrumbClickableAcrossResolutions')
+data.setCell(5, 2, 'com.insurEdge.testScripts.US17_P1_15')
+data.setCell(5, 3, 2585);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'customerBreadcrumbClickableAcrossResolutions')
+data.setCell(6, 2, 'com.insurEdge.testScripts.US17_P1_15')
+data.setCell(6, 3, 2574);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifySelect5Records')
+data.setCell(7, 2, 'com.insurEdge.testScripts.US17_P1_17')
+data.setCell(7, 3, 2367);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateHamburgerClose')
+data.setCell(8, 2, 'com.insurEdge.testScripts.US17_P1_05')
+data.setCell(8, 3, 2133);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateFooterHyperLink')
+data.setCell(9, 2, 'com.insurEdge.testScripts.US17_P1_07')
+data.setCell(9, 3, 1920);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'modifyPolicy')
+data.setCell(10, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(10, 3, 1903);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createPolicy')
+data.setCell(11, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(11, 3, 1793);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'customerAuthorize')
+data.setCell(12, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(12, 3, 1743);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'createMainCategory')
+data.setCell(13, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(13, 3, 1707);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'rejectedPolicyHolder')
+data.setCell(14, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(14, 3, 1652);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateStatusUpdateInGrid')
+data.setCell(15, 2, 'com.insurEdge.testScripts.US17_P1_19')
+data.setCell(15, 3, 1611);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'viewPolicy')
+data.setCell(16, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(16, 3, 1587);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'authorizePolicy')
+data.setCell(17, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(17, 3, 1491);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'pendingPolicyHolder')
+data.setCell(18, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(18, 3, 1469);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateNavigationAndSearchBoxVisible')
+data.setCell(19, 2, 'com.insurEdge.testScripts.US17_P1_16')
+data.setCell(19, 3, 1423);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'link2Questions')
+data.setCell(20, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(20, 3, 1411);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'validateConfirmRejectPopup')
+data.setCell(21, 2, 'com.insurEdge.testScripts.US17_P1_19')
+data.setCell(21, 3, 1397);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validateCustomerTableColumnText')
+data.setCell(22, 2, 'com.insurEdge.testScripts.US17_P1_12')
+data.setCell(22, 3, 1257);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'validateConfirmDeletePopup')
+data.setCell(23, 2, 'com.insurEdge.testScripts.US17_P1_20')
+data.setCell(23, 3, 1167);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'validateApproveButtonPopup')
+data.setCell(24, 2, 'com.insurEdge.testScripts.US17_P1_18')
+data.setCell(24, 3, 1069);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'dashboard')
+data.setCell(25, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(25, 3, 1059);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'approvedPolicyHolder')
+data.setCell(26, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(26, 3, 1053);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'validateNoSelectionWarning')
+data.setCell(27, 2, 'com.insurEdge.testScripts.US17_P1_19')
+data.setCell(27, 3, 1035);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'createSubCategory')
+data.setCell(28, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(28, 3, 1029);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'customerView')
+data.setCell(29, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(29, 3, 1029);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'validateNoSelectionWarning')
+data.setCell(30, 2, 'com.insurEdge.testScripts.US17_P1_20')
+data.setCell(30, 3, 987);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'validateDeletionSuccess')
+data.setCell(31, 2, 'com.insurEdge.testScripts.US17_P1_20')
+data.setCell(31, 3, 965);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'validateRejectionSuccess')
+data.setCell(32, 2, 'com.insurEdge.testScripts.US17_P1_19')
+data.setCell(32, 3, 908);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'appliedPolicyHolder')
+data.setCell(33, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(33, 3, 856);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'validateDeleteWithNoSelection')
+data.setCell(34, 2, 'com.insurEdge.testScripts.US17_P1_20')
+data.setCell(34, 3, 812);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'validateRejectWithNoSelection')
+data.setCell(35, 2, 'com.insurEdge.testScripts.US17_P1_19')
+data.setCell(35, 3, 770);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'customerCreate')
+data.setCell(36, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(36, 3, 722);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'validateConfirmationPopup')
+data.setCell(37, 2, 'com.insurEdge.testScripts.US17_P1_18')
+data.setCell(37, 3, 688);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'validateHamburgerOpen')
+data.setCell(38, 2, 'com.insurEdge.testScripts.US17_P1_05')
+data.setCell(38, 3, 683);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'validateLogo')
+data.setCell(39, 2, 'com.insurEdge.testScripts.US17_P1_01')
+data.setCell(39, 3, 652);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'validateCustomerBreadcrumbRedirectsToDashboard')
+data.setCell(40, 2, 'com.insurEdge.testScripts.US17_P1_15')
+data.setCell(40, 3, 650);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'validateCustomerTableColumnCount')
+data.setCell(41, 2, 'com.insurEdge.testScripts.US17_P1_12')
+data.setCell(41, 3, 614);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'validateMenuButton')
+data.setCell(42, 2, 'com.insurEdge.testScripts.US17_P1_01')
+data.setCell(42, 3, 559);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'expandCustomer')
+data.setCell(43, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(43, 3, 548);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'validateFooterCredits')
+data.setCell(44, 2, 'com.insurEdge.testScripts.US17_P1_07')
+data.setCell(44, 3, 522);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'validateCheckboxSelectionToggle')
+data.setCell(45, 2, 'com.insurEdge.testScripts.US17_P1_13')
+data.setCell(45, 3, 515);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'expandQuestions')
+data.setCell(46, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(46, 3, 498);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'expandCategory')
+data.setCell(47, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(47, 3, 477);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'validateCurrentPageHighlighted')
+data.setCell(48, 2, 'com.insurEdge.testScripts.US17_P1_14')
+data.setCell(48, 3, 458);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'validatePaginationControlsClickable')
+data.setCell(49, 2, 'com.insurEdge.testScripts.US17_P1_14')
+data.setCell(49, 3, 455);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'expandPolicy')
+data.setCell(50, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(50, 3, 444);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'expandPolicyHolders')
+data.setCell(51, 2, 'com.insurEdge.testScripts.US17_P1_06')
+data.setCell(51, 3, 434);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'validateCheckboxesVisible')
+data.setCell(52, 2, 'com.insurEdge.testScripts.US17_P1_13')
+data.setCell(52, 3, 406);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'validateUserProfileDropdown')
+data.setCell(53, 2, 'com.insurEdge.testScripts.US17_P1_01')
+data.setCell(53, 3, 318);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'verifyRecordsDropdownOptions')
+data.setCell(54, 2, 'com.insurEdge.testScripts.US17_P1_17')
+data.setCell(54, 3, 291);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'validateSearchBoxPosition')
+data.setCell(55, 2, 'com.insurEdge.testScripts.US17_P1_10')
+data.setCell(55, 3, 272);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'validateSearchBoxAppearance')
+data.setCell(56, 2, 'com.insurEdge.testScripts.US17_P1_10')
+data.setCell(56, 3, 241);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'verifyDefaultRecordsDropdownValue')
+data.setCell(57, 2, 'com.insurEdge.testScripts.US17_P1_17')
+data.setCell(57, 3, 214);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'validateUsernameColorAndPosition')
+data.setCell(58, 2, 'com.insurEdge.testScripts.US17_P1_01')
+data.setCell(58, 3, 203);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'validateBreadcrumbTrailPresence')
+data.setCell(59, 2, 'com.insurEdge.testScripts.US17_P1_08')
+data.setCell(59, 3, 165);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'validateAuthorizeCustomerTitleColor')
+data.setCell(60, 2, 'com.insurEdge.testScripts.US17_P1_08')
+data.setCell(60, 3, 158);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'validateCustomerBreadcrumbVisibleAndStyled')
+data.setCell(61, 2, 'com.insurEdge.testScripts.US17_P1_15')
+data.setCell(61, 3, 148);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'validateApproveButtonUI')
+data.setCell(62, 2, 'com.insurEdge.testScripts.US17_P1_09')
+data.setCell(62, 3, 145);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'validateUsernameDisplayedAndMatch')
+data.setCell(63, 2, 'com.insurEdge.testScripts.US17_P1_01')
+data.setCell(63, 3, 141);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'validateDeleteButtonUI')
+data.setCell(64, 2, 'com.insurEdge.testScripts.US17_P1_09')
+data.setCell(64, 3, 128);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'validateRejectButtonUI')
+data.setCell(65, 2, 'com.insurEdge.testScripts.US17_P1_09')
+data.setCell(65, 3, 128);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'validateProfileImageCircular')
+data.setCell(66, 2, 'com.insurEdge.testScripts.US17_P1_01')
+data.setCell(66, 3, 112);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'validateCustomerTableAppearance')
+data.setCell(67, 2, 'com.insurEdge.testScripts.US17_P1_12')
+data.setCell(67, 3, 108);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'validatePlaceholderText')
+data.setCell(68, 2, 'com.insurEdge.testScripts.US17_P1_10')
+data.setCell(68, 3, 106);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'validateCustomerSearchFromExcelPositive')
+data.setCell(69, 2, 'com.insurEdge.testScripts.US17_P1_16')
+data.setCell(69, 3, 48);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'validateCustomerSearchFromExcelNegative')
+data.setCell(70, 2, 'com.insurEdge.testScripts.US17_P1_16')
+data.setCell(70, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 872 ms</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -307,31 +1698,524 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">validateMenuButton</span>
-                <span class="method-start">4301 ms</span>
+                <span class="method-start">8083 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateLogo</span>
-                <span class="method-start">4669 ms</span>
+                <span class="method-start">8690 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateUsernameDisplayedAndMatch</span>
-                <span class="method-start">4922 ms</span>
+                <span class="method-start">9348 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateProfileImageCircular</span>
-                <span class="method-start">4996 ms</span>
+                <span class="method-start">9497 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateUsernameColorAndPosition</span>
-                <span class="method-start">5031 ms</span>
+                <span class="method-start">9613 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateUserProfileDropdown</span>
-                <span class="method-start">5095 ms</span>
+                <span class="method-start">9832 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5199 ms</span>
+                <span class="method-start">10158 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_05</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">14052 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateHamburgerClose</span>
+                <span class="method-start">19031 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateHamburgerOpen</span>
+                <span class="method-start">21172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21866 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_06</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">25637 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">dashboard</span>
+                <span class="method-start">30844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">expandCustomer</span>
+                <span class="method-start">31911 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">customerCreate</span>
+                <span class="method-start">32467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">customerView</span>
+                <span class="method-start">33206 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">customerAuthorize</span>
+                <span class="method-start">34243 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">expandCategory</span>
+                <span class="method-start">35992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createMainCategory</span>
+                <span class="method-start">36478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createSubCategory</span>
+                <span class="method-start">38201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">expandPolicy</span>
+                <span class="method-start">39230 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createPolicy</span>
+                <span class="method-start">39682 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">authorizePolicy</span>
+                <span class="method-start">41481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">viewPolicy</span>
+                <span class="method-start">42975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">modifyPolicy</span>
+                <span class="method-start">44571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">expandPolicyHolders</span>
+                <span class="method-start">46481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">appliedPolicyHolder</span>
+                <span class="method-start">46923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">approvedPolicyHolder</span>
+                <span class="method-start">47786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pendingPolicyHolder</span>
+                <span class="method-start">48847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rejectedPolicyHolder</span>
+                <span class="method-start">50316 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">expandQuestions</span>
+                <span class="method-start">51974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">link1Questions</span>
+                <span class="method-start">52476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">link2Questions</span>
+                <span class="method-start">63459 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64886 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_07</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">70847 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateFooterCredits</span>
+                <span class="method-start">76067 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateFooterHyperLink</span>
+                <span class="method-start">76593 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">78513 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_08</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">82538 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initAuthorizePage</span>
+                <span class="method-start">87757 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateAuthorizeCustomerTitleColor</span>
+                <span class="method-start">89725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateBreadcrumbTrailPresence</span>
+                <span class="method-start">89891 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90056 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_09</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">93861 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initAuthorizePage</span>
+                <span class="method-start">98682 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateApproveButtonUI</span>
+                <span class="method-start">100610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateRejectButtonUI</span>
+                <span class="method-start">100759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateDeleteButtonUI</span>
+                <span class="method-start">100887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">101015 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_10</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">104711 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initAuthorizePage</span>
+                <span class="method-start">109917 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateSearchBoxAppearance</span>
+                <span class="method-start">111788 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatePlaceholderText</span>
+                <span class="method-start">112038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateSearchBoxPosition</span>
+                <span class="method-start">112144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">112416 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_12</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">116028 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initAuthorizePage</span>
+                <span class="method-start">121111 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateCustomerTableAppearance</span>
+                <span class="method-start">122987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCustomerTableColumnCount</span>
+                <span class="method-start">123095 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateCustomerTableColumnText</span>
+                <span class="method-start">123709 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">124982 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_13</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">128778 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initAuthorizePage</span>
+                <span class="method-start">133488 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateCheckboxesVisible</span>
+                <span class="method-start">135584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCheckboxSelectionToggle</span>
+                <span class="method-start">135990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">136505 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_14</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">140090 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initAuthorizePage</span>
+                <span class="method-start">145359 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validatePaginationControlsClickable</span>
+                <span class="method-start">146967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateCurrentPageHighlighted</span>
+                <span class="method-start">147431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">147893 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_15</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">151549 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initAuthorizePage</span>
+                <span class="method-start">156515 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateCustomerBreadcrumbVisibleAndStyled</span>
+                <span class="method-start">158496 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCustomerBreadcrumbRedirectsToDashboard</span>
+                <span class="method-start">158654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">customerBreadcrumbClickableAcrossResolutions(1366, 768)</span>
+                <span class="method-start">159340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">customerBreadcrumbClickableAcrossResolutions(1920, 1080)</span>
+                <span class="method-start">161928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">164508 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_16</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">168625 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initAuthorizePage</span>
+                <span class="method-start">173975 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateNavigationAndSearchBoxVisible</span>
+                <span class="method-start">175896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateCustomerSearchFromExcelPositive</span>
+                <span class="method-start">177319 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateCustomerSearchFromExcelNegative</span>
+                <span class="method-start">177375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177384 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_17</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">181321 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initAuthorizePage</span>
+                <span class="method-start">186528 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyRecordsDropdownOptions</span>
+                <span class="method-start">188510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDefaultRecordsDropdownValue</span>
+                <span class="method-start">188801 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySelect10Records</span>
+                <span class="method-start">189031 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySelect20Records</span>
+                <span class="method-start">192726 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySelect5Records</span>
+                <span class="method-start">198873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">201242 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_18</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">207078 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initAuthorizePage</span>
+                <span class="method-start">212129 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateApproveButtonPopup</span>
+                <span class="method-start">214025 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateConfirmationPopup</span>
+                <span class="method-start">215139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateStatusChange</span>
+                <span class="method-start">215840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">221255 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_19</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">226017 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">231263 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateConfirmRejectPopup</span>
+                <span class="method-start">233223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateRejectionSuccess</span>
+                <span class="method-start">234623 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateStatusUpdateInGrid</span>
+                <span class="method-start">235537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateRejectWithNoSelection</span>
+                <span class="method-start">237172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateNoSelectionWarning</span>
+                <span class="method-start">237955 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">238991 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insurEdge.testScripts.US17_P1_20</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, https://qeaskillhub.cognizant.com/LoginPage)</span>
+                <span class="method-start">243734 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">248999 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateConfirmDeletePopup</span>
+                <span class="method-start">251139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateDeletionSuccess</span>
+                <span class="method-start">252316 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateStatusUpdateInGrid</span>
+                <span class="method-start">253287 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateDeleteWithNoSelection</span>
+                <span class="method-start">265407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateNoSelectionWarning</span>
+                <span class="method-start">266230 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">267223 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
